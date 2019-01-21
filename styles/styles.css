@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: gray;
+}
+#header {
+    background-image:  url("../images/library.png");
+    height: 120px;
+    background-size: cover;
+    background-position: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+
+h1 {
+    font-size: 80px;
+    margin-left: 20px;
+    text-align: left;
+    text-shadow: -6px 0 0 black;
+    line-height: 120px;
+
+}
+
+#nav{
+    background-color: black;
+}
+
+.boton {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #79421e;
+    border-radius: 3px;
+    padding: 15px 5vw; 
+    display: block;
+}
+
+ul, li {
+    text-align: center;
+    padding: 7px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+
+    
+}
+.temas {
+    width: 22vw;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: text-top;
+    height: auto;
+}
+.temas h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px ;
+}
+.temas img {
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+.temas h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0px;
+
+}
+
+.temas p {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 234px;
+    margin-bottom: 10px;
+
+}
+
+.boton_2 {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #79421e;
+    border-radius: 3px;
+    padding: 10px;
+    }
+p.boton_2{
+    text-align: center;
+}
+.boton_2  {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    display: block;
+}
+ .boton_2:hover {
+    border-top-color: #292617;
+    background: #292617;
+    color: #fafafa;
+    }
+ .boton_2:active {
+    border-top-color: #e7ecf0;
+    background: #e7ecf0;
+    }
+.container {
+    height: 77vh;
+}
+.librosrecomendados {
+        width: 30.5vw;
+        display: inline-block;
+        padding: 23px;
+        vertical-align: text-top;
+        height: auto;
+    }
+.librosrecomendados img {
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.locales{
+    width: 30.5vw;
+    display: inline-block;
+    padding: 23px;
+    text-align: left;
+    height: auto;
+    
+}
+.locales h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+   
+}
+.locales p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.locales img {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    float: left;
+}
+.col50 {
+    line-height: 30px;
+    height: 30px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    width: 50%;
+    float: left; 
+}
